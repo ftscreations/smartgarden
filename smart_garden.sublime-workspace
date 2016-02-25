@@ -1,0 +1,563 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"entr",
+				"entries_meta"
+			],
+			[
+				"sub",
+				"subscribed_bands"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ou",
+				"output"
+			],
+			[
+				"mus",
+				"musikki"
+			],
+			[
+				"parti",
+				"particles_output"
+			],
+			[
+				"bio",
+				"bio_json"
+			],
+			[
+				"sta",
+				"status_input"
+			],
+			[
+				"stat",
+				"status_update"
+			],
+			[
+				"pho",
+				"photoURL"
+			],
+			[
+				"main",
+				"main-nav"
+			],
+			[
+				"social",
+				"social_json"
+			],
+			[
+				"social_",
+				"social_response"
+			],
+			[
+				"art",
+				"artist"
+			],
+			[
+				"arti",
+				"artists"
+			],
+			[
+				"client",
+				"clientTag"
+			],
+			[
+				"song",
+				"song_titles"
+			],
+			[
+				"wp_get",
+				"wp_remote_get"
+			],
+			[
+				"rep",
+				"response"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"thank",
+				"thankyou_msg"
+			],
+			[
+				"send",
+				"sendToEmail"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"state",
+				"state_arr"
+			],
+			[
+				"wp",
+				"wp_enqueue_scripts"
+			],
+			[
+				"power-",
+				"power-consumption"
+			],
+			[
+				"reu",
+				"required_fields"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"field",
+				"field"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"post",
+				"postWithSameLink"
+			],
+			[
+				"loading",
+				"loadingTemplate"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"button",
+				"button	Tag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"LED",
+				"LED_Write"
+			],
+			[
+				"add",
+				"add_action"
+			],
+			[
+				"new",
+				"newtag"
+			],
+			[
+				"tax",
+				"tax_name"
+			],
+			[
+				"save",
+				"save_tag"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"tag",
+				"tagchecklist"
+			],
+			[
+				"user",
+				"username"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/joshcross/NodeJS/learnyoureact/program.js",
+		"/Users/joshcross/NodeJS/learnyoureact/views/index.jsx",
+		"/Applications/MAMP/htdocs/usfca_com/scholar/template-accordion.php",
+		"/Applications/MAMP/htdocs/usfca_com/scholar/template-homepage.php",
+		"/Users/joshcross/Meteor/pour/pour.js",
+		"/Users/joshcross/Meteor/pour/pour.html",
+		"/Users/joshcross/NodeJS/Basic Crawler/index.js",
+		"/Users/joshcross/Meteor/pour/config.js",
+		"/Users/joshcross/NodeJS/nodetest1/app.js",
+		"/Users/joshcross/NodeJS/nodetest1/routes/index.js",
+		"/Users/joshcross/NodeJS/nodetest1/views/helloworld.jade",
+		"/Users/joshcross/NodeJS/Basic Crawler/package.json",
+		"/Users/joshcross/Meteor/pour/mobile-config.js",
+		"/Users/joshcross/SmartCollar/logins.txt",
+		"/Users/joshcross/NodeJS/hello.js",
+		"/Users/joshcross/SmartCollar/uart.js",
+		"/Users/joshcross/SmartCollar/main.js",
+		"/Applications/MAMP/htdocs/theagencyatpontevedra_com/public_html/wp-content/themes/theagency2015/home.php",
+		"/Users/joshcross/SmartCollar/var SerialPort = require(\"serialport\").SerialPort;",
+		"/Users/joshcross/Meteor/bickr/client/client.html",
+		"/Users/joshcross/Meteor/bickr/models.js",
+		"/Users/joshcross/Meteor/bickr/client/client.js",
+		"/Users/joshcross/Meteor/bickr/client/client.css",
+		"/Users/joshcross/Meteor/bickr/mobile-config.js",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/js/dashboard.js",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/functions.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/header-kitchen.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/page-templates/kitchen/dashboard-layout.php",
+		"/Applications/MAMP/htdocs/alertatwork_com/wp-content/themes/aaw_theme/home.php",
+		"/Applications/MAMP/htdocs/alertatwork_com/wp-content/themes/aaw_theme/functions.php",
+		"/Applications/MAMP/htdocs/austinseminoles_com/public_html/wp-config.php",
+		"/Applications/MAMP/htdocs/alertatwork/wp-config.php",
+		"/Applications/MAMP/htdocs/Major-League-Shop/index.html",
+		"/Applications/MAMP/htdocs/silvanoappreal_com/public_html/wp-content/themes/mercor/template-fullslider.php",
+		"/Applications/MAMP/htdocs/austinseminoles_com/login.txt",
+		"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/Avada/blank.php",
+		"/Users/joshcross/Downloads/sitemap.xml",
+		"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/Avada-Child-Theme/framework/custom_functions.php",
+		"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/Avada/framework/custom_functions.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/template-front.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/page-templates/kitchen/calendar-layout.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/js/site.js",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/header.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/php-gracenote-master/example.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/archive-artists.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/functions.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/fan-view-artist-pg.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/single-kitchen.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/archive-kitchens.php",
+		"/Applications/MAMP/htdocs/bookherecookhere_com/wp-content/themes/seminole/header.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/assets/css/fts_2015.css",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/assets/css/fts_20151",
+		"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme/assets/js/fts_2015.js",
+		"/Applications/MAMP/htdocs/sxswhackathon/wp-content/themes/music-power/assets/css/bootstrapwp.css",
+		"/Applications/MAMP/htdocs/sxswhackathon/wp-content/themes/music-power/index.php",
+		"/Applications/MAMP/htdocs/sxswhackathon/wp-content/themes/music-power/header.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada-Child-Theme/contact.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada-Child-Theme/functions.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada-Child-Theme/style.css",
+		"/Users/joshcross/Meteor/microscope/server/publications.js",
+		"/Users/joshcross/Meteor/microscope/packages/tmeasday:errors/smart.json",
+		"/Users/joshcross/Meteor/microscope/packages/tmeasday:errors/package.js",
+		"/Users/joshcross/Meteor/microscope/packages/tmeasday:errors/errors_tests.js",
+		"/Users/joshcross/.meteorite/packages/iron-core/EventedMind/iron-core/0e48b5dc50d03f01025b7b900fb5ce2f13d52cad/versions.json",
+		"/Users/joshcross/.meteorite/packages/iron-core/EventedMind/iron-core/0e48b5dc50d03f01025b7b900fb5ce2f13d52cad/package.js",
+		"/Users/joshcross/.meteorite/packages/iron-core/EventedMind/iron-core/0e48b5dc50d03f01025b7b900fb5ce2f13d52cad/errors_list.js",
+		"/Users/joshcross/.meteorite/packages/iron-core/EventedMind/iron-core/0e48b5dc50d03f01025b7b900fb5ce2f13d52cad/errors_list.html",
+		"/Users/joshcross/.meteorite/packages/iron-core/EventedMind/iron-core/0e48b5dc50d03f01025b7b900fb5ce2f13d52cad/errors.js",
+		"/Users/joshcross/.meteorite/packages/iron-core/EventedMind/iron-core/0e48b5dc50d03f01025b7b900fb5ce2f13d52cad/.gitignore",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada/framework/custom_functions.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada-Child-Theme/header.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada/framework/templates/header.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada/framework/headers/header-v5.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada/framework/headers/header-v4.php",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada-Child-Theme/100-width.php",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_edit.js",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_edit.html",
+		"/Users/joshcross/Meteor/microscope/packages/errors/errors_list.js",
+		"/Users/joshcross/Meteor/microscope/packages/errors/package.js",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_submit.js",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_submit.html",
+		"/Users/joshcross/Meteor/microscope/client/views/includes/header.html",
+		"/Users/joshcross/Meteor/microscope/client/views/application/layout.html",
+		"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada/blank.php",
+		"/Users/joshcross/Meteor/microscope/client/templates/posts/errors.js",
+		"/Users/joshcross/Meteor/microscope/client/templates/posts/errors.html",
+		"/Users/joshcross/Meteor/microscope/client/templates/posts/post_item.html",
+		"/Users/joshcross/Meteor/microscope/lib/permissions.js",
+		"/Users/joshcross/Meteor/microscope/collections/posts.js",
+		"/Users/joshcross/Meteor/microscope/packages/errors/errors.html",
+		"/Users/joshcross/Meteor/microscope/packages/errors/errors_list.html",
+		"/Users/joshcross/Meteor/microscope/client/main.html",
+		"/Users/joshcross/Meteor/microscope/client/templates/posts/posts_list.js",
+		"/Users/joshcross/Meteor/microscope/client/views/includes/access_denied.html",
+		"/Users/joshcross/Meteor/microscope/lib/router.js",
+		"/Users/joshcross/Meteor/microscope/client/helpers/config.js",
+		"/Users/joshcross/Meteor/microscope/client/helpers/errors.js",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_edit.hs",
+		"/Users/joshcross/Meteor/microscope/client/templates/posts/posts_list.html",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_page.html",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_submit.",
+		"/Users/joshcross/Meteor/microscope/client/views/posts/post_item.html",
+		"/Users/joshcross/Meteor/microscope/client/views/includes/loading.html",
+		"/Users/joshcross/Meteor/microscope/client/main.js",
+		"/Users/joshcross/Meteor/microscope/client/templates/posts/post_item.js",
+		"/Users/joshcross/Meteor/microscope/server/fixtures.js",
+		"/Users/joshcross/Meteor/microscope/client/stylesheets/style.css",
+		"/Applications/MAMP/htdocs/IX Server 3/10gigenet.com/sandbox/1,000mbps.html",
+		"/Applications/MAMP/htdocs/IX Server 3/10gigenet.com/sandbox/internettransit.html",
+		"/Applications/MAMP/htdocs/IX Server 3/10gigenet.com/sandbox/10,000mbps.html",
+		"/Applications/MAMP/htdocs/IX Server 1/colocationwholesale.com/index.html",
+		"/Applications/MAMP/htdocs/IX Server 1/colocationwholesale.com/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/servercolocation.cc/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/servercolocation.cc/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 1/bayareacolocationdeals.com/robots.txt",
+		"/Applications/MAMP/htdocs/IX Server 4/servercolo.info/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/servercolo.info/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/sanjosecolocationfast.net/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/sanjosecolocationfast.net/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationsale.net/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/datacentercolo.net/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/datacentercolo.net/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationusa.net/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationusa.net/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationsale.net/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationnet.net/sandbox/index.html",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationnet.net/sandbox/css/style.css",
+		"/Applications/MAMP/htdocs/IX Server 4/colocationfacility.us/sandbox/css/style.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/alertatwork/wp-content/plugins/gravityforms",
+			"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/",
+			"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/Avada",
+			"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/Avada-Child-Theme",
+			"/Applications/MAMP/htdocs/carlclopton_com/public_html/wp-content/themes/Avada",
+			"/Applications/MAMP/htdocs/sxswhackathon/public_html/wp-content/themes/fts_2015_wp_theme",
+			"/Users/joshcross/Meteor/microscope",
+			"/Applications/MAMP/htdocs/IX Server 1/10gcolo.com/wp-content/themes/Avada",
+			"/Users/joshcross/Meteor/microscope",
+			"/Applications/MAMP/htdocs/tag_plugin_wp",
+			"/Applications/MAMP/htdocs/tag_plugin_wp/wp-admin"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"assoc_kitch_id",
+			"user_m",
+			"success:",
+			"$_POST",
+			"{}",
+			"{",
+			"ajax",
+			"get_leads",
+			"page-title-captions",
+			"page-title-container",
+			"have_posts",
+			"user",
+			"locali",
+			"$template_contents",
+			"enqu",
+			"32px",
+			"body",
+			"url",
+			".com",
+			"width",
+			".text",
+			"emailSent",
+			"meteorErrors",
+			"entry-title",
+			"page-title-container",
+			"100% Width",
+			"<span class=\"icon-bar\"></span>",
+			"Template.layout",
+			"postItem",
+			"\"colocationquote",
+			"\"Colocation Quote\"",
+			"\"colocationquote",
+			"colocationquote",
+			"California California Colocation Quote",
+			"Colocation Quote",
+			"colocationquote",
+			"Colocation Quote",
+			"getbayareacolocationdealsquote",
+			"#left",
+			"#grid-wrap",
+			"#left",
+			"grid",
+			"#left",
+			"left",
+			"grid-wrap",
+			"scroll-down",
+			".section",
+			"vh",
+			"section-head",
+			"loadNpmTask",
+			"add_meta_box",
+			"newt-ag-post_tag",
+			"post_tags_meta_box",
+			"taghint",
+			"this_post",
+			"recurID",
+			"remove-document",
+			"moment"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"sanjosecolocationquote",
+			"\"San Jose Colocation Quote\"",
+			"\"Data Center Colocation Quote\"",
+			"\"datacenterdatacentercolocationquote",
+			"datacenterdatacentercolocationquote",
+			"California Colocation Quote",
+			"California Colocation Host Quote",
+			"californiacolocationhostquote",
+			"California Colocation Service Quote",
+			"colocationquote"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "smart_garden.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

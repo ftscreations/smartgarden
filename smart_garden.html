@@ -1,0 +1,241 @@
+<head>
+  <title>Smart Garden: Urban Herb Model</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Smart Garden</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        	<h1 class="page-header">Urban Herb Model</h1>
+        	<div class="row">
+        		{{> dataNow}}
+        	</div>
+        	<div class="row">
+        		<div class="col-xs-6">
+        			<h3>Remote Controls</h3>
+	        		<div class="col-sm-6">
+	        			<button type="button" id="waterPlants" class="btn btn-success"><span class="glyphicon glyphicon-tint" aria-hidden="true"></span> Water Plants</button>
+	        		</div>
+	        		<div class="col-sm-6">
+	        			{{{ledValue}}}
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+      </div>
+    </div>
+</body>
+
+<template name="task">
+  <li>Temperature: {{tempSensor}}</li>
+  <li>Brightness: {{lightSensor}}</li>
+  <li>Moisture: {{moistureSensor}}</li>
+  <li>Water: {{waterSensor}}</li>
+  <svg version="1.1"
+       id="sunFill"
+       class="climacon climacon_sunFill"
+       viewBox="15 15 70 70">
+    <g class="climacon_iconWrap climacon_iconWrap-sunFill">
+      <g class="climacon_componentWrap climacon_componentWrap-sun">
+        <g class="climacon_componentWrap climacon_componentWrap-sunSpoke">
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-east"
+                d="M72.03,51.999h-3.998c-1.105,0-2-0.896-2-1.999s0.895-2,2-2h3.998c1.104,0,2,0.896,2,2S73.136,51.999,72.03,51.999z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northEast"
+                d="M64.175,38.688c-0.781,0.781-2.049,0.781-2.828,0c-0.781-0.781-0.781-2.047,0-2.828l2.828-2.828c0.779-0.781,2.047-0.781,2.828,0c0.779,0.781,0.779,2.047,0,2.828L64.175,38.688z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-north"
+                d="M50.034,34.002c-1.105,0-2-0.896-2-2v-3.999c0-1.104,0.895-2,2-2c1.104,0,2,0.896,2,2v3.999C52.034,33.106,51.136,34.002,50.034,34.002z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northWest"
+                d="M35.893,38.688l-2.827-2.828c-0.781-0.781-0.781-2.047,0-2.828c0.78-0.781,2.047-0.781,2.827,0l2.827,2.828c0.781,0.781,0.781,2.047,0,2.828C37.94,39.469,36.674,39.469,35.893,38.688z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-west"
+                d="M34.034,50c0,1.104-0.896,1.999-2,1.999h-4c-1.104,0-1.998-0.896-1.998-1.999s0.896-2,1.998-2h4C33.14,48,34.034,48.896,34.034,50z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southWest"
+                d="M35.893,61.312c0.781-0.78,2.048-0.78,2.827,0c0.781,0.78,0.781,2.047,0,2.828l-2.827,2.827c-0.78,0.781-2.047,0.781-2.827,0c-0.781-0.78-0.781-2.047,0-2.827L35.893,61.312z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-south"
+                d="M50.034,65.998c1.104,0,2,0.895,2,1.999v4c0,1.104-0.896,2-2,2c-1.105,0-2-0.896-2-2v-4C48.034,66.893,48.929,65.998,50.034,65.998z"/>
+          <path class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southEast"
+                d="M64.175,61.312l2.828,2.828c0.779,0.78,0.779,2.047,0,2.827c-0.781,0.781-2.049,0.781-2.828,0l-2.828-2.827c-0.781-0.781-0.781-2.048,0-2.828C62.126,60.531,63.392,60.531,64.175,61.312z"/>
+        </g>
+        <g class="climacon_componentWrap climacon_componentWrap_sunBody">
+          <circle class="climacon_component climacon_component-stroke climacon_component-stroke_sunBody"
+                  cx="50.034"
+                  cy="50"
+                  r="11.999"/>
+          <circle class="climacon_component climacon_component-fill climacon_component-fill_sunBody"
+                  fill="url(#MyGradient)"
+                  cx="50.034"
+                  cy="50"
+                  r="7.999"/>
+        </g>
+      </g>
+    </g>
+    <defs>
+        <linearGradient id="MyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="start" offset="{{#with lightSensor}}{{lightPercentage}}{{/with}}"  stop-color="white"/>
+            <stop id="stop" offset="85%" stop-color="gold"/>
+        </linearGradient>
+    </defs>
+  </svg><!-- sunFill -->
+</template>
+<template name="button">
+	<button id="turnOnLed">Turn LED On</button>
+</template>
+<template name="dataNow">
+	<div class="col-sm-3 center">
+		<h3>Sunlight</h3>
+		  <svg version="1.1"
+       id="sunFill"
+       class="climacon climacon_sunFill"
+       viewBox="0 0 800 600">
+	    <path d="M400.96,114.24c-69.6,0-125.76,56.16-125.76,125.76c0,69.6,56.16,125.76,125.76,125.76c69.6,0,125.76-56.16,125.76-125.76
+	C526.72,170.4,470.56,114.24,400.96,114.24z M426.4,33.6c0-13.92-11.521-25.44-25.44-25.44l0,0c-13.92,0-25.44,11.52-25.44,25.44
+	v56.16h50.88V33.6z M573.28,118.08c10.08-10.08,10.08-26.4,0-36c-10.08-10.08-26.4-10.08-36,0l-39.36,39.36l36,36L573.28,118.08z
+	 M267.52,157.92l36-36l-39.36-39.36c-10.08-10.08-26.4-10.08-36,0c-9.6,10.08-10.08,26.4,0,36L267.52,157.92z M375.04,446.4
+	c0,13.92,11.52,25.439,25.44,25.439c13.92,0,25.439-11.52,25.439-25.439v-56.16h-50.88V446.4z M228.16,361.92
+	c-10.08,10.08-10.08,26.4,0,36s26.4,10.08,36,0l39.36-39.36l-36-36L228.16,361.92z M533.44,322.08l-36,36l39.359,39.36
+	c10.08,10.079,26.4,10.079,36,0c10.08-10.08,10.08-26.4,0-36L533.44,322.08z M250.24,214.56h-56.16
+	c-13.92,0-25.44,11.52-25.44,25.44s11.52,25.44,25.44,25.44h56.16V214.56z M605.92,214.56h-56.16v50.88h56.16
+	c13.92,0,25.44-11.52,25.44-25.44S619.84,214.56,605.92,214.56z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="400.5" y1="366.5" x2="400.5" y2="114.5005">
+	<stop  offset="{{realTimeLight}}" style="stop-color:gold"/>
+	<stop  offset="{{realTimeLight15}}" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" stroke="#000000" stroke-width="20" stroke-miterlimit="10" cx="400.5" cy="240.5" r="126"/>
+	  </svg><!-- sunFill -->
+	  	<h4>
+		    {{realTimeLight}}
+		</h4>
+
+	</div>
+	<div class="col-sm-3 center">
+		<h3>Temperature</h3>
+		<svg version="1.1" id="temp" viewBox="0 0 800 600">
+			<rect x="392.603" y="108.125" width="26.784" height="7.43"/>
+			<rect x="392.603" y="177.082" width="26.784" height="7.464"/>
+			<rect x="392.603" y="246.067" width="26.784" height="7.449"/>
+			<path d="M456.635,311.002V74.611c0-27.946-22.67-50.611-50.64-50.611c-27.926,0-52.752,22.67-52.752,50.611v238.152
+				c-17.477,14.928-28.613,37.094-28.613,61.886C324.63,419.578,361.053,456,406,456c44.952,0,81.374-36.422,81.374-81.351
+				C487.369,348.859,475.346,325.91,456.635,311.002z M405.995,428.674c-29.774,0-53.928-24.154-53.928-53.942
+				c0-19.987,11.001-37.238,27.144-46.561V84.264c0-14.583,12.216-26.396,26.784-26.396c14.568,0,26.827,11.808,26.827,26.396v243.917
+				c16.133,9.326,27.11,26.573,27.11,46.546C459.933,404.516,435.822,428.674,405.995,428.674z"/>
+			<circle fill="#CC0000" cx="406.5" cy="374.5" r="39"/>
+			<rect fill="#CC0000" x="385.5" y="165" width="41" height="{{realTimeTempHeight}}"/>
+		</svg>
+		<h4>
+		    {{realTimeTemp}} &deg;<sup>F</sup>
+		</h4>
+	</div>
+	<div class="col-sm-3 center">
+		<h3>Soil Moisture</h3>
+		<svg version="1.1" id="soil" viewBox="0 0 800 600">
+			<linearGradient id="soilGauge" gradientUnits="userSpaceOnUse" x1="424.002" y1="419.7217" x2="424.0019" y2="37.1523">
+				<stop offset="{{realTimeSoil}}" style="stop-color:#8C4303"/>
+				<stop offset="{{realTimeSoil15}}" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path fill="url(#soilGauge)" stroke="#000000" stroke-width="20" stroke-miterlimit="10" d="M539.306,327.36
+				c-5.481-29.76-31.512-52.32-62.856-52.32c-10.55,0-20.481,2.602-29.251,7.123c-2.396-4.118-5.77-7.574-9.763-10.147
+				c0.662-19.502,0.456-41.741-1.498-65.001c23.501-13.344,33.586-42.542,22.517-67.853c-11.837-27.048-102.95-102.01-102.95-102.01
+				s-7.027,117.312,5.011,144.845c10.987,25.123,38.001,37.128,63.207,30.053c0.125,13.478,0.053,34.9-1.167,55.262
+				c-0.422-0.019-0.83-0.086-1.257-0.086c-14.774,0-27.024,10.699-29.487,24.763c-5.558-1.19-11.313-1.848-17.227-1.848
+				c-31.963,0-59.583,18.331-73.104,45.02c-29.275,0.196-52.949,23.967-52.949,53.289c0,11.698,3.811,22.479,10.2,31.272h333.941
+				c4.315-8.611,6.802-18.298,6.802-28.589C599.474,357.086,572.853,329.333,539.306,327.36z"/>
+			<path fill="#FFFFFF" d="M400.902,349.541c-7.541-1.857-15.158,2.755-17.016,10.296c-0.648,2.64-0.494,5.28,0.288,7.689
+				c0.039-0.94,0.168-1.892,0.398-2.837c1.857-7.541,9.475-12.148,17.016-10.296c4.9,1.205,8.549,4.853,10.003,9.326
+				C411.847,357.188,407.498,351.163,400.902,349.541z"/>
+			<path fill="#FFFFFF" d="M355.758,315.158c-7.536-1.853-15.149,2.751-17.001,10.286c-0.648,2.636-0.495,5.275,0.288,7.686
+				c0.034-0.937,0.168-1.887,0.398-2.837c1.853-7.536,9.465-12.14,17.001-10.286c4.896,1.204,8.544,4.848,9.994,9.316
+				C366.693,322.8,362.344,316.781,355.758,315.158z"/>
+			<path fill="#FFFFFF" d="M314.224,368.184c-12.106-2.98-24.336,4.421-27.312,16.526c-1.042,4.239-0.792,8.478,0.465,12.346
+				c0.058-1.507,0.269-3.033,0.644-4.555c2.98-12.105,15.206-19.503,27.312-16.526c7.867,1.935,13.723,7.79,16.061,14.966
+				C331.787,380.463,324.803,370.785,314.224,368.184z"/>
+			<path fill="#FFFFFF" d="M547.303,365.501c-10.623-6.523-24.523-3.197-31.047,7.426c-2.285,3.72-3.336,7.833-3.312,11.898
+				c0.514-1.42,1.176-2.808,1.996-4.142c6.523-10.623,20.425-13.949,31.047-7.426c6.907,4.238,10.699,11.602,10.737,19.147
+				C560.301,382.546,556.591,371.203,547.303,365.501z"/>
+			<path fill="#FFFFFF" d="M476.406,317.275c-8.078-4.959-18.647-2.434-23.611,5.645c-1.732,2.827-2.534,5.957-2.52,9.048
+				c0.394-1.08,0.897-2.136,1.521-3.148c4.958-8.078,15.533-10.608,23.611-5.645c5.251,3.226,8.141,8.822,8.17,14.562
+				C486.29,330.235,483.472,321.609,476.406,317.275z"/>
+			<path fill="#FFFFFF" d="M390.098,117.207c16.143,57.35,37.176,85.013,37.176,85.013
+				C424.883,190.709,408.577,146.798,390.098,117.207z"/>
+		</svg>
+		<h4>{{realTimeSoil}}</h4>
+	</div>
+	<div class="col-sm-3 center">
+		<h3>Water Level</h3>
+		<svg version="1.1" id="water" viewBox="0 0 800 600">
+			<path d="M519.893,305.201c10.459-15.992,16.488-34.681,16.156-54.097c-0.254-3.671-0.375-7.363-0.791-11.019
+			c-2.163-19.126-8.281-37.213-15.909-54.857c-15.476-35.831-36.253-68.814-58.818-100.821c-9.046-12.828-18.425-25.414-28.267-37.688
+			c-1.699-2.121-2.791-2.716-4.885-0.032c-18.129,23.298-35.525,47.072-51.17,72.005c-18.641,29.76-35.293,60.433-45.822,93.879
+			c-7.98,25.355-9.41,50.632,0.681,75.872c2.374,5.95,5.312,11.542,8.677,16.805c-86.041,10.423-146.611,35.282-146.611,64.305
+			c0,38.41,106.048,69.553,236.873,69.553c130.823,0,236.872-31.137,236.872-69.553C666.872,340.484,606.129,315.604,519.893,305.201z
+			 M356.513,224.878c3.908-16.827,10.67-32.414,17.944-47.821c0.169-0.359,0.48-0.659,1.313-1.788
+			c-2.184,11.715-3.914,22.523-3.708,33.563c0.358,19.095,5.939,36.427,15.945,52.293c2.083,3.292,4.304,6.483,6.419,9.769
+			c2.97,4.615,4.431,9.42,1.239,14.601c-2.917,4.726-8.814,7.896-14.664,6.662c-8.582-1.387-14.711-6.762-18.557-13.155
+			C352.277,262.044,351.977,244.416,356.513,224.878z M448.219,351.889c22.449-3.514,42.535-14.39,57.854-29.66
+			c23.409,6.604,38.162,16.199,38.162,26.896c0,19.906-51.148,36.053-114.234,36.053c-63.085,0-114.234-16.146-114.234-36.053
+			c0-10.645,14.611-20.203,37.83-26.802C377.221,345.812,412.082,357.549,448.219,351.889z M430,420.713
+			c-102.113,0-184.905-26.12-184.905-58.354c0-22.371,39.903-41.793,98.458-51.582c1.783,2.416,3.661,4.736,5.644,6.973
+			c-39.492,7.696-65.544,20.861-65.544,35.82c0,23.731,65.528,42.969,146.342,42.969c80.813,0,146.342-19.232,146.342-42.969
+			c0-15.012-26.231-28.219-65.944-35.898c1.994-2.242,3.893-4.563,5.686-6.953c58.75,9.774,98.816,29.223,98.816,51.641
+			C614.905,394.593,532.124,420.713,430,420.713z"/>
+			<linearGradient id="waterGauge" gradientUnits="userSpaceOnUse" x1="430.0059" y1="353.5" x2="430.0059" y2="43.894">
+				<stop  offset="{{realTimeWater}}" style="stop-color:#05AFF2"/>
+				<stop  offset="{{realTimeWater15}}" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path fill="url(#waterGauge)" stroke="#000000" stroke-width="20" stroke-miterlimit="10" d="M521.166,303.5c10.459-15.992,15.215-33.979,14.883-53.396c-0.254-3.67-0.375-7.363-0.791-11.018
+			c-2.163-19.127-8.281-37.214-15.909-54.858c-15.476-35.831-36.253-68.814-58.818-100.821c-9.046-12.828-18.425-25.414-28.267-37.688
+			c-1.699-2.121-2.791-2.716-4.885-0.032c-18.129,23.298-35.525,47.072-51.17,72.005c-18.641,29.76-35.293,60.433-45.822,93.879
+			c-7.98,25.355-9.41,50.633,0.681,75.871c2.374,5.951,5.312,11.542,8.677,16.806C357.5,336.167,396.5,353.5,428.5,353.5
+			C494.5,353.5,521.166,303.5,521.166,303.5z"/>
+			<path fill="#FFFFFF" d="M356.513,224.878c3.908-16.827,10.671-32.414,17.944-47.821c0.169-0.359,0.48-0.659,1.313-1.788
+			c-2.184,11.715-3.914,22.523-3.708,33.563c0.358,19.095,5.939,36.427,15.945,52.293c2.084,3.292,4.305,6.483,6.42,9.769
+			c2.969,4.615,4.43,9.42,1.238,14.601c-2.916,4.726-8.813,7.896-14.663,6.662c-8.582-1.387-14.711-6.762-18.557-13.155
+			C352.277,262.044,351.977,244.416,356.513,224.878z"/>
+		</svg>
+		<h4>{{realTimeWater}}</h4>
+	</div>
+</template>
